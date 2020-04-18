@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color:hotpink;
+    font-style: bold;
+}
+h2{
+    text-align: center;
+    background-color: grey;
+    padding-right: 5px;
+}
+body{
+    background-image: url(https://img.manoramaonline.com/content/dam/mm/en/travel/travel-news/images/2019/1/28/kerala-top-destinations.jpg);
+
+}

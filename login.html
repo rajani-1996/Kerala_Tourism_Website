@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="icon" href="https://lh3.googleusercontent.com/xZ7QLCNX5fJgPoJj51Gu7Hg1V2S9Cn868qOLRxo8CF796g0UGT9sfuknn-Ejbw_fKBI">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <img src="images/logo.png" width="80" height="50" alt="">
+            Experience a Memorabale Trip...
+        <a class="navbar-brand" href="#"></a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="margin-left: 40px;">
+                <a  href="home.html"class="btn btn-outline-light">HOME</a>
+              </li>
+              <li class="margin-left: 40px;">
+                <a  href="districts.html"class="btn btn-outline-light">DISTRICTS</a>
+              </li>
+                </ul>
+                  <form style="margin-right: 40px;">
+                    <a href="login.html" class="btn btn-outline-dark">LOG IN</a>
+                    <a href="signup.html" class="btn btn-outline-dark">SIGN UP</a>
+                  </form>            
+            </div>  
+          </nav>
+     
+          
+      <div class="container-fluid bg">
+
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-sx-12"></div>
+          <div class="col-md-4 col-sm-4 col-sx-12">
+     
+           <form id="log" action="home.html" onsubmit="return validate()">
+             <h1> login</h1>
+             <div class="form-group">
+              <label for="inputEmail">Username</label>
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email address">
+            </div>
+             <div class="form-group">
+              <label for="InputPassword1">Password</label>
+              <input type="password" class="form-control" id="InputPassword1" placeholder="password">
+             </div>
+             <div class="form-group form-check">
+               <input type="checkbox" class="form-check-input" id="exampleCheck1">
+               <label class="form-check-label" for="exampleCheck1">Remember me</label>
+             </div>
+         
+             <div class="forgot float-right">
+               <a href="https://google.com">Forgot password?</a>
+             </div>
+     
+             <button type="submit" class="btn btn-primary btn-block">Login</button>
+      
+             <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
+     
+           </form>
+     
+          </div>
+          <div class="col-md-4 col-sm-4 col-sx-12"></div>
+        </div>
+       </div>
+
+<script src="login.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
